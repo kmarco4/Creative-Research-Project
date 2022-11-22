@@ -1,7 +1,57 @@
 html, body {
-  margin: 0;
+  margin: 50px;
   padding: 0;
+
 }
+
 canvas {
   display: block;
+}
+
+/*colors the background and sets the font family*/
+body {
+  background-color: bisque;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+/*centers the image in the middle*/
+.center{
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*centers the heading and color*/
+h1{
+  text-align: center;
+  font-size: 55px;
+  color:darkgoldenrod;
+  text-decoration: underline;
+}
+/*centers the heading and color*/
+h2{
+  text-align: center;
+  font-size: 35px;
+  color:darkgoldenrod;
+}
+
+/*centers the heading and color*/
+h3{
+  text-align: center;
+  font-size: 35px;
+  color:darkgoldenrod;
+}
+
+/*centers the heading and color*/
+h4{
+  text-align: center;
+  font-size: 35px;
+  color:darkgoldenrod;
+}
+
+/*centers the paragraphs and color*/
+p {
+  text-align: center;
+  color:chocolate;
 }
